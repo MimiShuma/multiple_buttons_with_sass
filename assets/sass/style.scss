@@ -1,0 +1,102 @@
+@import "mixins";
+@import "variables";
+
+.btn-primary {
+    @include btn;
+    color: $btn-font-color;
+    background-color: $primary-bg-color-light;
+    border-color: $primary-border-color;
+
+    &:hover {
+        background-color: $primary-bg-color-dark;
+    }
+}
+
+.btn-secondary {
+    @include btn;
+    color: $btn-font-color;
+    background-color: $secondary-bg-color-light;
+    border-color: $secondary-border-color;
+
+    &:hover {
+        background-color: $secondary-bg-color-dark;
+    }
+}
+
+.btn-success {
+    @include btn;
+    color: $btn-font-color;
+    background-color: $success-bg-color-light;
+    border-color: $success-border-color;
+
+    &:hover {
+        background-color: $success-bg-color-dark;
+    }
+}
+
+.btn-danger {
+    @include btn;
+    color: $btn-font-color;
+    background-color: $danger-bg-color-light;
+    border-color: $danger-border-color;
+
+    &:hover {
+        background-color: $danger-bg-color-dark;
+    }
+}
+
+.btn-warning {
+    @include btn;
+    color: $btn-font-color;
+    background-color: $warning-bg-color-light;
+    border-color: $warning-border-color;
+
+    &:hover {
+        background-color: $warning-bg-color-dark;
+    }
+}
+
+.btn-info {
+    @include btn;
+    color: $btn-font-color;
+    background-color: $info-bg-color-light;
+    border-color: $info-border-color;
+
+    &:hover {
+        background-color: $info-bg-color-dark;
+    }
+}
+
+.btn-light {
+    @include btn;
+    color: $btn-font-color-dark;
+    background-color: $light-bg-color-light;
+    border-color: $light-border-color;
+
+    &:hover {
+        background-color: $light-bg-color-dark;
+    }
+}
+
+.btn-dark {
+    @include btn;
+    color: $btn-font-color;
+    background-color: $dark-bg-color-light;
+    border-color: $dark-border-color;
+
+    &:hover {
+        background-color: $dark-bg-color-dark;
+    }
+}
+
+.btn-link {
+    @include btn;
+    color: $link-font-color;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
